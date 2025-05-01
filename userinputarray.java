@@ -1,5 +1,5 @@
-import java.util.*;
-public class Main{
+import java.util.*;  //this give access to Scanner but it has all utility
+public class Main{                    //This defines a class named Main, which is the entry point of the Java program.
     public static void main(String[] args)
     {
         int [] myList = new int[5];
