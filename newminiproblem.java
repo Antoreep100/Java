@@ -14,7 +14,7 @@ public class Main{
             arr[i][j]=input.nextInt();
         }
         }
-         System.out.println("Array:" );
+        
         for(int i = 0;i< arr.length;i++){
             
         
@@ -38,12 +38,12 @@ public class Main{
         }
          System.out.println("The max of Array is:" +max);
          
-            for(int i = 0;i<arr.length ; i++){
-        for (int j = 0;j<arr[i].length ; j++)
+          
+        for (int j = 0;j<arr[1].length ; j++)
         {
             sum2+=arr[1][j];
         }
-        }
+        
         System.out.println("The summation of 2nd row Array is:" + sum2);
     }
 }
